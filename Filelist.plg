@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Filelist - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD456.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Filelist.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Download\Filelist\Filelist\FilelistDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD456.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD457.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Filelist.pdb" /debug /machine:I386 /out:"Debug/Filelist.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\FileCreate.obj
+.\Debug\FileDlg.obj
+.\Debug\Filelist.obj
+.\Debug\FilelistDlg.obj
+.\Debug\FilelistDoc.obj
+.\Debug\FilelistView.obj
+.\Debug\FileOpen.obj
+.\Debug\FolderCreate.obj
+.\Debug\FolderDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\Filelist.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD457.tmp"
+<h3>Output Window</h3>
+Compiling...
+FilelistDlg.cpp
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(242) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(252) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(329) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(335) : warning C4018: '==' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(343) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(409) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(399) : warning C4101: 'tempstr' : unreferenced local variable
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(524) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(534) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(588) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(594) : warning C4018: '==' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(602) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(608) : warning C4018: '==' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(650) : warning C4018: '<' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(656) : warning C4018: '==' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(870) : warning C4018: '>' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(915) : warning C4018: '==' : signed/unsigned mismatch
+D:\Download\Filelist\Filelist\FilelistDlg.cpp(918) : warning C4018: '!=' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Filelist.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
